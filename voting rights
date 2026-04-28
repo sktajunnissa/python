@@ -1,0 +1,14 @@
+Name=input("Enter name:")
+Gender=input("Enter gender:")
+Age=int(input("Enter age:"))
+if(Age<18):
+    print(" not eligible to vote because under (irrespective of gender)")
+elif(Age>60):
+    print("is eligible to vote because over (irresepective of gender)")
+elif(Age>18 and Gender=="F"):
+        print("{} has right to vote ".format(Name))
+
+elif(Gender=="M" and Age>30):
+         print("{} has right to vote".format(Name))
+else:
+        print("{} has no right to vote".format(Name))
