@@ -1,0 +1,11 @@
+from datetime import datetime
+import pytz
+a=pytz.timezone("Asia/Seoul")
+b=datetime.now(a)
+print(b)
+c=pytz.timezone("Asia/Tokyo")
+d=datetime.now(c)
+print(d)
+e=pytz.timezone("America/New_York")
+f=datetime.now(e)
+print(f)
