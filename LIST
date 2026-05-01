@@ -1,0 +1,7 @@
+names=["taj","poush","parsana","teju","thanuja","sindhu"]
+marks=[77,85,67,54,66,34]
+p=1
+for i in range(5):
+    if marks[i]>70:
+        print("{},:{} has scored {}%".format(p,names[i],marks[i]))
+        p=p+1
