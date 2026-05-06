@@ -1,0 +1,13 @@
+class abc:
+    msg="Hello "
+    def set_dem(self,a,b):
+        self.tot=a+b
+    def display(self):
+        print("Sum:",self.tot)
+        print("msg:",abc.msg)
+a=abc()
+a2=abc()
+a.set_dem(20,30)
+a2.set_dem(10,34)
+a.display()
+a2.display()
