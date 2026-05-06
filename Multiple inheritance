@@ -1,0 +1,19 @@
+class Hero:
+    def hero_name(self):
+        print("Hero: Jr.NTR")
+class Heroine:
+    def heroine_name(self):
+        print("Heroine: Tamannah")
+
+class Movie(Hero,Heroine):
+    def the_movie(self):
+        print("Movie name: OoSaRaVeLli")
+
+hero=Hero()
+hero.hero_name()
+heroine=Heroine()
+heroine.heroine_name()
+movie=Movie()
+movie.the_movie()
+movie.hero_name()
+movie.heroine_name()
