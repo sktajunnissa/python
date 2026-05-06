@@ -1,0 +1,9 @@
+# infinite argument
+def abc(*args):
+    sum=0
+    for i in args:
+        sum=sum+i
+    print(sum)
+abc(1,2)
+abc(1,2,3)
+abc(1,2,3,4)
