@@ -1,0 +1,8 @@
+import qrcode
+qr=qrcode.QRCode()
+a="Do Your Best"
+qr.add_data(a)
+qr.make(fit=True)
+res=qr.make_image(fill_color="black",back_color="white")
+res.save("x.png")
+print("created the QR")
