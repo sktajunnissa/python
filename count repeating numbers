@@ -1,0 +1,24 @@
+a=int(input("Enter any number: "))
+b={}
+for i in str(a):
+    if i not in b:
+        b[i]=1
+    else:
+        b[i]=b[i]+1
+c=0     
+for i in b.values():    
+    if i>1:
+        c=c+1 
+print(c)   
+
+
+or we can t write it in another way like this just change last 3 lines to 
+a=int(input("Enter any number: "))
+b={}
+for i in str(a):
+    if i not in b:
+        b[i]=1
+    else:
+        b[i]=b[i]+1
+d=[i[1] for i in b.items() if i[1]>1]
+print(len(d))
